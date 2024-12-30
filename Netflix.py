@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the data
-uploaded_file = "E:\\Netfliix-Dashboard\\netflix_content_2023.csv"
+uploaded_file = "netflix_content_2023.csv"
 netflix_data = pd.read_csv(uploaded_file)
 
 # Preprocess data
